@@ -105,6 +105,18 @@ header {
     font-size: 30px;
     font-family: arial;
 }
-
+#icons {
+    width: 250px;
+    display: flex;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+  }
+  #icons a img {
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+  }
  
 
