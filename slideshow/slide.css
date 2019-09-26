@@ -1,0 +1,20 @@
+#slideShow {
+	margin: 95px auto;
+	position:relative;
+	width: 700px;
+	height: 250px;
+	padding:100px
+}
+#slideShow > div {
+	position: absolute;
+	top: 20px;
+	left:10px;
+	right:10px;
+	bottom:20px;
+}
+#slideShow> div > img{
+	width:80%;
+}
+#knopkeq{
+	text-align: center;
+}
