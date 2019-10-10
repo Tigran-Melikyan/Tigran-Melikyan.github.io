@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Tetris Game JS</title>
+    <style>
+		body {
+			padding: 0;
+			margin: 0;
+			background: #C0C0C0 ;
+		}
+        #score{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+        }
+        canvas{
+            display: block;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+	<div>This Game Was Created By Tigran
+		<canvas id="tetris" width="300" height="600"></canvas>
+	<div>
+        Score : <div id="score">0</div>
+    </div>
+    <script src="tetrisfigures.js"></script>
+    <script src="tetris.js"></script>
+</body>
+</html>
